@@ -5,12 +5,6 @@
  */
 package paquete1;
 
-/**
- *
- * @author reroes
- */
-public class Ejecutor {
-    
 import java.util.Locale;
 import java.util.Scanner;
 import paquete2.InstitucionEducativa;
@@ -51,7 +45,7 @@ public class Ejecutor {
         double pagoMensu = 0;
 
         do {
-            System.out.println("De acuerdo a las opciones, seleccione el prestamo"
+            System.out.println("De acuerdo a las opciones, seleccione el prestamo "
                     + "que necesita: "
                     + "\n[1]Prestamo Automovil\n[2]Prestamo Estudiantil\n"
                     + "[3] Salir");
@@ -71,7 +65,7 @@ public class Ejecutor {
                 //System.out.printf("%s", per);
                 System.out.println("Ingrese su ciudad");
                 ciudad = entrada.nextLine();
-                System.out.println("Ingrese su los meses para los cuales obtendra el prestamo");
+                System.out.println("Ingrese numero de meses para los cuales obtendra el prestamo");
                 meses = entrada.nextInt();
                 entrada.nextLine();//limpieza de buffer
 
@@ -154,4 +148,3 @@ public class Ejecutor {
 
     }
 }
-
